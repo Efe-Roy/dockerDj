@@ -1,0 +1,21 @@
+# General
+
+SECRET_KEY=django-insecure-a&3+0t=32fxqhxb=p)w)1a5+$te$qc6zt52yt28@5ss9h-t*_!
+
+EMAIL_HOST=mail.sanvicenteantioquia.com
+EMAIL_HOST_USER=radicacion@sanvicenteantioquia.com
+EMAIL_HOST_PASSWORD=Email.2023
+
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=cJmwAMRqxaMAmoOFggfSSuFrbYBIgtSA
+CELERY_FLOWER_PASSWORD=RZj3i4aHH8qf42DOkuzSK2VsoN281xnptKD0utsZhHI890pwBQK1YbE2GfJ0WitC
